@@ -1,0 +1,6 @@
+framework module Pods_Sports_ScraperTests {
+  umbrella header "Pods-Sports ScraperTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
