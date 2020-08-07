@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A795D1524DCD1DD00DB2573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A795D1424DCD1DD00DB2573 /* AppDelegate.swift */; };
+		0A795D1724DCD1DD00DB2573 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A795D1624DCD1DD00DB2573 /* SceneDelegate.swift */; };
+		0A795D1924DCD1DD00DB2573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A795D1824DCD1DD00DB2573 /* ViewController.swift */; };
+		0A795D1C24DCD1DD00DB2573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A795D1A24DCD1DD00DB2573 /* Main.storyboard */; };
+		0A795D1F24DCD1DD00DB2573 /* Sports_Scraper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A795D1D24DCD1DD00DB2573 /* Sports_Scraper.xcdatamodeld */; };
+		0A795D2124DCD1E000DB2573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A795D2024DCD1E000DB2573 /* Assets.xcassets */; };
+		0A795D2424DCD1E000DB2573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A795D2224DCD1E000DB2573 /* LaunchScreen.storyboard */; };
+		0A795D2F24DCD1E100DB2573 /* Sports_ScraperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A795D2E24DCD1E100DB2573 /* Sports_ScraperTests.swift */; };
+		0A795D3A24DCD1E100DB2573 /* Sports_ScraperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A795D3924DCD1E100DB2573 /* Sports_ScraperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A795D2B24DCD1E100DB2573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A795D0924DCD1DD00DB2573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A795D1024DCD1DD00DB2573;
+			remoteInfo = "Sports Scraper";
+		};
+		0A795D3624DCD1E100DB2573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A795D0924DCD1DD00DB2573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A795D1024DCD1DD00DB2573;
+			remoteInfo = "Sports Scraper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A795D1124DCD1DD00DB2573 /* Sports Scraper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sports Scraper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A795D1424DCD1DD00DB2573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A795D1624DCD1DD00DB2573 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A795D1824DCD1DD00DB2573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A795D1B24DCD1DD00DB2573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A795D1E24DCD1DD00DB2573 /* Sports_Scraper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sports_Scraper.xcdatamodel; sourceTree = "<group>"; };
+		0A795D2024DCD1E000DB2573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A795D2324DCD1E000DB2573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A795D2524DCD1E000DB2573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A795D2A24DCD1E100DB2573 /* Sports ScraperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sports ScraperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A795D2E24DCD1E100DB2573 /* Sports_ScraperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports_ScraperTests.swift; sourceTree = "<group>"; };
+		0A795D3024DCD1E100DB2573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A795D3524DCD1E100DB2573 /* Sports ScraperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sports ScraperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A795D3924DCD1E100DB2573 /* Sports_ScraperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sports_ScraperUITests.swift; sourceTree = "<group>"; };
+		0A795D3B24DCD1E100DB2573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A795D0E24DCD1DD00DB2573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A795D2724DCD1E100DB2573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A795D3224DCD1E100DB2573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A795D0824DCD1DD00DB2573 = {
+			isa = PBXGroup;
+			children = (
+				0A795D1324DCD1DD00DB2573 /* Sports Scraper */,
+				0A795D2D24DCD1E100DB2573 /* Sports ScraperTests */,
+				0A795D3824DCD1E100DB2573 /* Sports ScraperUITests */,
+				0A795D1224DCD1DD00DB2573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A795D1224DCD1DD00DB2573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A795D1124DCD1DD00DB2573 /* Sports Scraper.app */,
+				0A795D2A24DCD1E100DB2573 /* Sports ScraperTests.xctest */,
+				0A795D3524DCD1E100DB2573 /* Sports ScraperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A795D1324DCD1DD00DB2573 /* Sports Scraper */ = {
+			isa = PBXGroup;
+			children = (
+				0A795D1424DCD1DD00DB2573 /* AppDelegate.swift */,
+				0A795D1624DCD1DD00DB2573 /* SceneDelegate.swift */,
+				0A795D1824DCD1DD00DB2573 /* ViewController.swift */,
+				0A795D1A24DCD1DD00DB2573 /* Main.storyboard */,
+				0A795D2024DCD1E000DB2573 /* Assets.xcassets */,
+				0A795D2224DCD1E000DB2573 /* LaunchScreen.storyboard */,
+				0A795D2524DCD1E000DB2573 /* Info.plist */,
+				0A795D1D24DCD1DD00DB2573 /* Sports_Scraper.xcdatamodeld */,
+			);
+			path = "Sports Scraper";
+			sourceTree = "<group>";
+		};
+		0A795D2D24DCD1E100DB2573 /* Sports ScraperTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A795D2E24DCD1E100DB2573 /* Sports_ScraperTests.swift */,
+				0A795D3024DCD1E100DB2573 /* Info.plist */,
+			);
+			path = "Sports ScraperTests";
+			sourceTree = "<group>";
+		};
+		0A795D3824DCD1E100DB2573 /* Sports ScraperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A795D3924DCD1E100DB2573 /* Sports_ScraperUITests.swift */,
+				0A795D3B24DCD1E100DB2573 /* Info.plist */,
+			);
+			path = "Sports ScraperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A795D1024DCD1DD00DB2573 /* Sports Scraper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A795D3E24DCD1E100DB2573 /* Build configuration list for PBXNativeTarget "Sports Scraper" */;
+			buildPhases = (
+				0A795D0D24DCD1DD00DB2573 /* Sources */,
+				0A795D0E24DCD1DD00DB2573 /* Frameworks */,
+				0A795D0F24DCD1DD00DB2573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sports Scraper";
+			productName = "Sports Scraper";
+			productReference = 0A795D1124DCD1DD00DB2573 /* Sports Scraper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A795D2924DCD1E100DB2573 /* Sports ScraperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A795D4124DCD1E100DB2573 /* Build configuration list for PBXNativeTarget "Sports ScraperTests" */;
+			buildPhases = (
+				0A795D2624DCD1E100DB2573 /* Sources */,
+				0A795D2724DCD1E100DB2573 /* Frameworks */,
+				0A795D2824DCD1E100DB2573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A795D2C24DCD1E100DB2573 /* PBXTargetDependency */,
+			);
+			name = "Sports ScraperTests";
+			productName = "Sports ScraperTests";
+			productReference = 0A795D2A24DCD1E100DB2573 /* Sports ScraperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A795D3424DCD1E100DB2573 /* Sports ScraperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A795D4424DCD1E100DB2573 /* Build configuration list for PBXNativeTarget "Sports ScraperUITests" */;
+			buildPhases = (
+				0A795D3124DCD1E100DB2573 /* Sources */,
+				0A795D3224DCD1E100DB2573 /* Frameworks */,
+				0A795D3324DCD1E100DB2573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A795D3724DCD1E100DB2573 /* PBXTargetDependency */,
+			);
+			name = "Sports ScraperUITests";
+			productName = "Sports ScraperUITests";
+			productReference = 0A795D3524DCD1E100DB2573 /* Sports ScraperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A795D0924DCD1DD00DB2573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Kevin Escobedo";
+				TargetAttributes = {
+					0A795D1024DCD1DD00DB2573 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					0A795D2924DCD1E100DB2573 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0A795D1024DCD1DD00DB2573;
+					};
+					0A795D3424DCD1E100DB2573 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0A795D1024DCD1DD00DB2573;
+					};
+				};
+			};
+			buildConfigurationList = 0A795D0C24DCD1DD00DB2573 /* Build configuration list for PBXProject "Sports Scraper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A795D0824DCD1DD00DB2573;
+			productRefGroup = 0A795D1224DCD1DD00DB2573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A795D1024DCD1DD00DB2573 /* Sports Scraper */,
+				0A795D2924DCD1E100DB2573 /* Sports ScraperTests */,
+				0A795D3424DCD1E100DB2573 /* Sports ScraperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A795D0F24DCD1DD00DB2573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A795D2424DCD1E000DB2573 /* LaunchScreen.storyboard in Resources */,
+				0A795D2124DCD1E000DB2573 /* Assets.xcassets in Resources */,
+				0A795D1C24DCD1DD00DB2573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A795D2824DCD1E100DB2573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A795D3324DCD1E100DB2573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A795D0D24DCD1DD00DB2573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A795D1924DCD1DD00DB2573 /* ViewController.swift in Sources */,
+				0A795D1F24DCD1DD00DB2573 /* Sports_Scraper.xcdatamodeld in Sources */,
+				0A795D1524DCD1DD00DB2573 /* AppDelegate.swift in Sources */,
+				0A795D1724DCD1DD00DB2573 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A795D2624DCD1E100DB2573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A795D2F24DCD1E100DB2573 /* Sports_ScraperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A795D3124DCD1E100DB2573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A795D3A24DCD1E100DB2573 /* Sports_ScraperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A795D2C24DCD1E100DB2573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A795D1024DCD1DD00DB2573 /* Sports Scraper */;
+			targetProxy = 0A795D2B24DCD1E100DB2573 /* PBXContainerItemProxy */;
+		};
+		0A795D3724DCD1E100DB2573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A795D1024DCD1DD00DB2573 /* Sports Scraper */;
+			targetProxy = 0A795D3624DCD1E100DB2573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A795D1A24DCD1DD00DB2573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A795D1B24DCD1DD00DB2573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A795D2224DCD1E000DB2573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A795D2324DCD1E000DB2573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A795D3C24DCD1E100DB2573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A795D3D24DCD1E100DB2573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A795D3F24DCD1E100DB2573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X839S287VQ;
+				INFOPLIST_FILE = "Sports Scraper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kevin-Escobedo.Sports-Scraper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A795D4024DCD1E100DB2573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X839S287VQ;
+				INFOPLIST_FILE = "Sports Scraper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kevin-Escobedo.Sports-Scraper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A795D4224DCD1E100DB2573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X839S287VQ;
+				INFOPLIST_FILE = "Sports ScraperTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kevin-Escobedo.Sports-ScraperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sports Scraper.app/Sports Scraper";
+			};
+			name = Debug;
+		};
+		0A795D4324DCD1E100DB2573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X839S287VQ;
+				INFOPLIST_FILE = "Sports ScraperTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kevin-Escobedo.Sports-ScraperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sports Scraper.app/Sports Scraper";
+			};
+			name = Release;
+		};
+		0A795D4524DCD1E100DB2573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X839S287VQ;
+				INFOPLIST_FILE = "Sports ScraperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kevin-Escobedo.Sports-ScraperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sports Scraper";
+			};
+			name = Debug;
+		};
+		0A795D4624DCD1E100DB2573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X839S287VQ;
+				INFOPLIST_FILE = "Sports ScraperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kevin-Escobedo.Sports-ScraperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sports Scraper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A795D0C24DCD1DD00DB2573 /* Build configuration list for PBXProject "Sports Scraper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A795D3C24DCD1E100DB2573 /* Debug */,
+				0A795D3D24DCD1E100DB2573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A795D3E24DCD1E100DB2573 /* Build configuration list for PBXNativeTarget "Sports Scraper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A795D3F24DCD1E100DB2573 /* Debug */,
+				0A795D4024DCD1E100DB2573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A795D4124DCD1E100DB2573 /* Build configuration list for PBXNativeTarget "Sports ScraperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A795D4224DCD1E100DB2573 /* Debug */,
+				0A795D4324DCD1E100DB2573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A795D4424DCD1E100DB2573 /* Build configuration list for PBXNativeTarget "Sports ScraperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A795D4524DCD1E100DB2573 /* Debug */,
+				0A795D4624DCD1E100DB2573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A795D1D24DCD1DD00DB2573 /* Sports_Scraper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A795D1E24DCD1DD00DB2573 /* Sports_Scraper.xcdatamodel */,
+			);
+			currentVersion = 0A795D1E24DCD1DD00DB2573 /* Sports_Scraper.xcdatamodel */;
+			path = Sports_Scraper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0A795D0924DCD1DD00DB2573 /* Project object */;
+}
